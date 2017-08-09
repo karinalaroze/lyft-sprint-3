@@ -9,57 +9,51 @@ Colors:
 body{
     margin: 0;
 }
-nav {
-    background-color: #E54E79 ;
-	width: 100%;
-	height: 60;
-    float: left;
+
+.nav-wrapper img{
+    width: 6%;
+    margin-top: 7px;
+    margin-left: 20px;
 }
 
-nav img{
- width: 85px;
- height: 60px;
- padding-left: 50px;
- padding-top: 15px;
+.fondo {
+    background-image: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg);
+    padding-top:70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-ul{
-    width: 30%;
-    float: right;
-    
-    
-    font-family: 'Raleway', sans-serif; 
-}
-ul li{
-    display: inline-block;
-    margin-right: 20px;
-}
- li a{
-    display: inline-block;
-    color: white;
+.dos h1{
+    color: grey;
+    font-size: 30px;
     text-align: center;
-    text-decoration: none;
-    padding: 20px;
+    padding: 30px;
+    background-color: white;
 }
 
-.imagen img{
-	width: 100%;
-
+.dos{
+    background-color: #00B2A9;
+    height: 50%;
 }
 
-li a:hover{
-	background-color: #75726C;
-	padding: 20px;
+.caja{
+    background-color: white;
+    padding-top: 21vh;
 }
 
-footer{
-	background-color: #75726C;
-    width: 100%;
-    height: 250px;
-    float: left;
+.waves-effect{
+    border-radius: 1px solid transparent;
+    width: 50%;
+    margin-left: 212px;
+    margin-bottom: 60px;
 }
 
-.likes a{
-	color: black;
+.page-footer{
+    background-color: grey;
 }
+
+
+
+
 

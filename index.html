@@ -3,39 +3,82 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Title</title>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-      <header>
-        <nav>
-        <img src="assets/img/logo-white.png" alt="placeholder+image">
-            <ul>
-            <li><a href="#">Drive</a></li>
-            <li><a href="#">Explore</a></li>
-            <li><a href="#">Help</a></li>
-            </ul>
-        </nav>    
-    </header>
-
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo"><img src="assets/img/logo-white.png"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Drive</a></li>
+        <li><a href="badges.html">Explore</a></li>
+        <li><a href="collapsible.html">Help</a></li>
+      </ul>
+    </div>
+  </nav>
     <section class="fondo">
-        <div id="imagen">
+      
+    </section>
+    <section class="dos">
+      <div class="row">
+          <div class="col l12 col s12">
+              <h1>PLAY WHIT LYFT</h1>
+          </div>
+      </div>
+      <div class="container caja ">
+          <div class="row">
+              <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s6">
+                         <i class="material-icons prefix">directions_car</i>
+                          <input id="icon_prefix" type="text" class="validate">
+                          <label for="icon_prefix">X coordinate</label>
+                      </div>
+                      <div class="input-field col s6">
+                        <i class="material-icons prefix">directions_car</i>
+                          <input id="icon_telephone" type="tel" class="validate">
+                          <label for="icon_telephone">Y coordinate</label>
+                      </div>
+                    </div>
+              </form>
+          </div> 
+          <div class="row">
+              <div class="col l12 col s12">
+                  <a class="waves-effect waves-light btn center-btn">Start</a>
+              </div>
+          </div>    
+      </div>
+    </section>
+    <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Sprint 3 - Project</h5>
+                <p class="grey-text text-lighten-4">You can custom the footer and its content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 lyft & Laboratoria. Inc
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+            
 
-       <div class="imagen">
-       <img src="file:///home/laboratoria/Desktop/laboratoria/lyft-sprint-3/assets/img/cropped-Lyft-Promo-Codes-car-1.jpg" alt="placeholder+image">
-       </div>
-       <footer>
-       	<h1>Sprint 3 - project</h1>
-       	<p>Elaborado por Karina Laroze</p>
-       	<div class="likes">
-       	    <h2>Links</h2>
-            <a href="#">Link 1</a><br>
-            <a href="#">Link 2</a><br>
-            <a href="#">Link 3</a><br>
-            <a href="#">Link 4</a>
-        </div>
-       </footer>
-
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
 	<script src="assets/js/main.js"></script>
 </body>
 </html>
