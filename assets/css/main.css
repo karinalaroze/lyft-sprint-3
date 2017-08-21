@@ -54,6 +54,7 @@ nav{
     border-radius: 13px;
     background-color:#ee6e73;
     width: 65%;
+    z-index: 0;
 }
 .info1{
     margin-top: 56px;
