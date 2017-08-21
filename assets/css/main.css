@@ -15,6 +15,10 @@ body{
     margin-top: 7px;
     margin-left: 20px;
 }
+nav{
+    position: fixed;
+    z-index: 1;
+}
 
 .fondo {
     background-image: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg);
@@ -22,8 +26,44 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
+    background-attachment: fixed;
 
+}
+.caja-uno{
+    width: 40%;
+    height: 45%;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 60%;
+    top: 90px;
+}
+.titulo{
+    text-align: center;
+    font-size: 21px;
+    color:#00B2A9;
+    margin-top:20px;
+}
+.row .col.s6 {
+    width: 100%;
+    margin-left: auto;
+    right: auto;
+}
+.btn.boton{
+    margin-left: 30px;
+    position: absolute;
+    border-radius: 13px;
+    background-color:#ee6e73;
+    width: 65%;
+}
+.info1{
+    margin-top: 56px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.info2{
+    font-size: 12px;
+    margin-left: 10px;
+}
 .dos h1{
     color: grey;
     font-size: 30px;
